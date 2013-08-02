@@ -1,4 +1,13 @@
 Agentinsurance::Application.routes.draw do
+  resources :microposts
+
+
+  resources :mircroposts
+
+
+  resources :users
+
+
   get 'about' => 'pages#about'
 
   root :to => 'pages#home'
